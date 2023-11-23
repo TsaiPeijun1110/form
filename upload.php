@@ -37,7 +37,7 @@ if(isset($_GET['err'])){
 <?php
 
 if(isset($_GET['img'])){
-echo "<img src='./imges/{$_GET['img']}'>";
+echo "<img src='./imges/{$_GET['img']}' style='width:250px;height:150px'>";
 }
 ?>
 
